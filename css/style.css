@@ -75,41 +75,17 @@ li.floatleft {
 
   /* Portfolio box */
 
-  .row {
+  .container {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     float: left;
-    display: block;
-    box-sizing: inherit;
+    display: inline-block;
   }
 
-  .banana {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    float: right;
-    display: block;
-    box-sizing: inherit;
-  }
-  
-  .card-3 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+  .column {
     float: left;
-  }
-
-  .card-4 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    float: right;
-  }
-
-  .card-5 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
-
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 25%;
+    padding: 0 10px;
   }
   
   /* Add some padding inside the card container */
